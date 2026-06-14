@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-14 04:16:01",
+  "atualizado_em": "2026-06-14 07:16:03",
   "total_jogos": 72,
   "jogos": [
     {
@@ -138,9 +138,9 @@
       "grupo": "E",
       "casa": "Costa do Marfim",
       "fora": "Equador",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "Vitória Equador",
+      "previsao_casa": "0",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
