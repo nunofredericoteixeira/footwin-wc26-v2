@@ -741,148 +741,104 @@
     const summaryCorrectScore = document.getElementById("summaryCorrectScore");
 
     const LOGO_FILES = {
-      "africa-do-sul": "africa-do-sul.png",
-      "south-africa": "africa-do-sul.png",
-
-      "alemanha": "alemanha.png",
-      "germany": "alemanha.png",
-
-      "argelia": "argelia.png",
-      "algeria": "argelia.png",
-
-      "arabia-saudita": "arabia-saudita.png",
-      "saudi-arabia": "arabia-saudita.png",
-
+      "algeria": "algeria.png",
+      "argelia": "algeria.png",
       "argentina": "argentina.png",
       "australia": "australia.png",
       "austria": "austria.png",
-
-      "belgica": "belgica.png",
-      "belgium": "belgica.png",
-
-      "bosnia": "bosnia.png",
-      "bosnia-e-herzegovina": "bosnia.png",
-      "bosnia-and-herzegovina": "bosnia.png",
-
-      "brasil": "brasil.png",
-      "brazil": "brasil.png",
-
-      "cabo-verde": "cabo-verde.png",
-      "cape-verde": "cabo-verde.png",
-
+      "belgica": "belgium.png",
+      "belgium": "belgium.png",
+      "bosnia": "bosnia-and-herzegovina.png",
+      "bosnia-and-herzegovina": "bosnia-and-herzegovina.png",
+      "bosnia-e-herzegovina": "bosnia-and-herzegovina.png",
+      "brasil": "brazil.png",
+      "brazil": "brazil.png",
       "canada": "canada.png",
-
-      "catar": "catar.png",
-      "qatar": "catar.png",
-
-      "chequia": "chequia.png",
-      "czechia": "chequia.png",
-
+      "cabo-verde": "cape-verde.png",
+      "cape-verde": "cape-verde.png",
       "colombia": "colombia.png",
-
-      "congo-dr": "congo-dr.png",
-      "rd-congo": "congo-dr.png",
-      "dr-congo": "congo-dr.png",
-      "republica-democratica-do-congo": "congo-dr.png",
-
-      "coreia": "coreia.png",
-      "coreia-do-sul": "coreia.png",
-      "south-korea": "coreia.png",
-      "republica-da-coreia": "coreia.png",
-
-      "croacia": "croacia.png",
-      "croatia": "croacia.png",
-
-      "curacau": "curacao.png",
+      "croacia": "croatia.png",
+      "croatia": "croatia.png",
       "curacao": "curacao.png",
-      "curaçao": "curacao.png",
-
-      "egito": "egipto.png",
-      "egipto": "egipto.png",
-      "egypt": "egipto.png",
-
-      "equador": "equador.png",
-      "ecuador": "equador.png",
-
-      "escocia": "escocia.png",
-      "scotland": "escocia.png",
-
-      "espanha": "espanha.png",
-      "spain": "espanha.png",
-
-      "estados-unidos": "usa.png",
-      "united-states": "usa.png",
-      "usa": "usa.png",
-
-      "franca": "franca.png",
-      "france": "franca.png",
-
+      "curacau": "curacao.png",
+      "chequia": "czechia.png",
+      "czechia": "czechia.png",
+      "republica-checa": "czechia.png",
+      "congo-dr": "dr-congo.png",
+      "dr-congo": "dr-congo.png",
+      "rd-congo": "dr-congo.png",
+      "republica-democratica-do-congo": "dr-congo.png",
+      "ecuador": "ecuador.png",
+      "equador": "ecuador.png",
+      "egipto": "egypt.png",
+      "egito": "egypt.png",
+      "egypt": "egypt.png",
+      "england": "england.png",
+      "inglaterra": "england.png",
+      "franca": "france.png",
+      "france": "france.png",
+      "alemanha": "germany.png",
+      "germany": "germany.png",
       "gana": "ghana.png",
       "ghana": "ghana.png",
-
       "haiti": "haiti.png",
-
-      "inglaterra": "inglaterra.png",
-      "england": "inglaterra.png",
-
-      "irao": "irao.png",
-      "iran": "irao.png",
-
-      "iraque": "iraque.png",
-      "iraq": "iraque.png",
-
-      "japao": "japao.png",
-      "japan": "japao.png",
-
-      "jordania": "jordania.png",
-      "jordan": "jordania.png",
-
-      "marrocos": "marrocos.png",
-      "morocco": "marrocos.png",
-
+      "ira": "iran.png",
+      "iran": "iran.png",
+      "irao": "iran.png",
+      "iraq": "iraq.png",
+      "iraque": "iraq.png",
+      "costa-do-marfim": "ivory-coast.png",
+      "cote-d-ivoire": "ivory-coast.png",
+      "ivory-coast": "ivory-coast.png",
+      "japan": "japan.png",
+      "japao": "japan.png",
+      "jordan": "jordan.png",
+      "jordania": "jordan.png",
       "mexico": "mexico.png",
-
-      "noruega": "noruega.png",
-      "norway": "noruega.png",
-
-      "nova-zelandia": "nova-zelandia.png",
-      "new-zealand": "nova-zelandia.png",
-
-      "paises-baixos": "paises-baixos.png",
-      "netherlands": "paises-baixos.png",
-      "holanda": "paises-baixos.png",
-
+      "marrocos": "morocco.png",
+      "morocco": "morocco.png",
+      "holanda": "netherlands.png",
+      "netherlands": "netherlands.png",
+      "paises-baixos": "netherlands.png",
+      "new-zealand": "new-zealand.png",
+      "nova-zelandia": "new-zealand.png",
+      "noruega": "norway.png",
+      "norway": "norway.png",
       "panama": "panama.png",
-
-      "paraguai": "paraguai.png",
-      "paraguay": "paraguai.png",
-
+      "paraguai": "paraguay.png",
+      "paraguay": "paraguay.png",
       "portugal": "portugal.png",
-
+      "catar": "qatar.png",
+      "qatar": "qatar.png",
+      "arabia-saudita": "saudi-arabia.png",
+      "saudi-arabia": "saudi-arabia.png",
+      "escocia": "scotland.png",
+      "scotland": "scotland.png",
       "senegal": "senegal.png",
-
-      "suecia": "suecia.png",
-      "sweden": "suecia.png",
-
-      "suica": "suica.png",
-      "switzerland": "suica.png",
-
+      "africa-do-sul": "south-africa.png",
+      "south-africa": "south-africa.png",
+      "coreia": "south-korea.png",
+      "coreia-do-sul": "south-korea.png",
+      "republica-da-coreia": "south-korea.png",
+      "south-korea": "south-korea.png",
+      "espanha": "spain.png",
+      "spain": "spain.png",
+      "suecia": "sweden.png",
+      "sweden": "sweden.png",
+      "suica": "switzerland.png",
+      "switzerland": "switzerland.png",
       "tunisia": "tunisia.png",
-
-      "turquia": "turquia.png",
-      "turkey": "turquia.png",
-
-      "uruguai": "uruguai.png",
-      "uruguay": "uruguai.png",
-
-      "usbequistao": "uzbequistao.png",
-      "uzbequistao": "uzbequistao.png",
-      "uzbekistan": "uzbequistao.png",
-
-      "costa-do-marfim": "costa-do-marfim.png",
-      "ivory-coast": "costa-do-marfim.png",
-      "cote-divoire": "costa-do-marfim.png",
-      "cote-d-ivoire": "costa-do-marfim.png"
+      "turkey": "turkey.png",
+      "turquia": "turkey.png",
+      "estados-unidos": "united-states.png",
+      "eua": "united-states.png",
+      "united-states": "united-states.png",
+      "usa": "united-states.png",
+      "uruguai": "uruguay.png",
+      "uruguay": "uruguay.png",
+      "usbequistao": "uzbekistan.png",
+      "uzbekistan": "uzbekistan.png",
+      "uzbequistao": "uzbekistan.png",
     };
 
     function n(valor) {
@@ -947,7 +903,7 @@
 
     function getLogoPath(teamName) {
       const slug = slugifyCountry(teamName);
-      const filename = LOGO_FILES[slug];
+      const filename = LOGO_FILES[slug] || `${slug}.png`;
 
       if (!filename) {
         return "";
