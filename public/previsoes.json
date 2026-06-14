@@ -109,7 +109,7 @@
     },
     {
       "data": "2026-06-14",
-      "hora": "",
+      "hora": "05:00",
       "grupo": "D",
       "casa": "Australia",
       "casa_slug": "australia",
@@ -154,7 +154,7 @@
     },
     {
       "data": "2026-06-15",
-      "hora": "",
+      "hora": "00:00",
       "grupo": "E",
       "casa": "Ivory Coast",
       "casa_slug": "ivory-coast",
