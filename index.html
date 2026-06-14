@@ -741,66 +741,148 @@
     const summaryCorrectScore = document.getElementById("summaryCorrectScore");
 
     const LOGO_FILES = {
-      "africa-do-sul": "Africa do Sul.png",
-      "alemanha": "Alemanha.png",
-      "argelia": "Algeria.png",
-      "arabia-saudita": "Arabia Saudita.png",
-      "argentina": "Argentina.png",
-      "australia": "Australia.png",
-      "austria": "Austria.png",
-      "belgica": "Belgica.png",
-      "bosnia": "Bosnia.png",
-      "bosnia-e-herzegovina": "Bosnia.png",
-      "brasil": "Brasil.png",
-      "cabo-verde": "Cabo Verde.png",
-      "canada": "Canada.png",
-      "catar": "Catar.png",
-      "chequia": "Chequia.png",
-      "colombia": "Colombia.png",
-      "congo-dr": "Congo DR.png",
-      "rd-congo": "Congo DR.png",
-      "republica-democratica-do-congo": "Congo DR.png",
-      "coreia": "Coreia.png",
-      "republica-da-coreia": "Coreia.png",
-      "coreia-do-sul": "Coreia.png",
-      "croacia": "Croacia.png",
-      "egito": "Egipto.png",
-      "egipto": "Egipto.png",
-      "equador": "Equador.png",
-      "escocia": "Escocia.png",
-      "espanha": "Espanha.png",
-      "estados-unidos": "USA.png",
-      "usa": "USA.png",
-      "franca": "França.png",
-      "gana": "Ghana.png",
-      "ghana": "Ghana.png",
-      "haiti": "Haiti.png",
-      "inglaterra": "Inglaterra.png",
-      "iraque": "Iraque.png",
-      "irao": "Irão.png",
-      "japao": "Japão.png",
-      "jordania": "Jordan.png",
-      "jordan": "Jordan.png",
+      "africa-do-sul": "africa-do-sul.png",
+      "south-africa": "africa-do-sul.png",
+
+      "alemanha": "alemanha.png",
+      "germany": "alemanha.png",
+
+      "argelia": "argelia.png",
+      "algeria": "argelia.png",
+
+      "arabia-saudita": "arabia-saudita.png",
+      "saudi-arabia": "arabia-saudita.png",
+
+      "argentina": "argentina.png",
+      "australia": "australia.png",
+      "austria": "austria.png",
+
+      "belgica": "belgica.png",
+      "belgium": "belgica.png",
+
+      "bosnia": "bosnia.png",
+      "bosnia-e-herzegovina": "bosnia.png",
+      "bosnia-and-herzegovina": "bosnia.png",
+
+      "brasil": "brasil.png",
+      "brazil": "brasil.png",
+
+      "cabo-verde": "cabo-verde.png",
+      "cape-verde": "cabo-verde.png",
+
+      "canada": "canada.png",
+
+      "catar": "catar.png",
+      "qatar": "catar.png",
+
+      "chequia": "chequia.png",
+      "czechia": "chequia.png",
+
+      "colombia": "colombia.png",
+
+      "congo-dr": "congo-dr.png",
+      "rd-congo": "congo-dr.png",
+      "dr-congo": "congo-dr.png",
+      "republica-democratica-do-congo": "congo-dr.png",
+
+      "coreia": "coreia.png",
+      "coreia-do-sul": "coreia.png",
+      "south-korea": "coreia.png",
+      "republica-da-coreia": "coreia.png",
+
+      "croacia": "croacia.png",
+      "croatia": "croacia.png",
+
+      "curacau": "curacao.png",
+      "curacao": "curacao.png",
+      "curaçao": "curacao.png",
+
+      "egito": "egipto.png",
+      "egipto": "egipto.png",
+      "egypt": "egipto.png",
+
+      "equador": "equador.png",
+      "ecuador": "equador.png",
+
+      "escocia": "escocia.png",
+      "scotland": "escocia.png",
+
+      "espanha": "espanha.png",
+      "spain": "espanha.png",
+
+      "estados-unidos": "usa.png",
+      "united-states": "usa.png",
+      "usa": "usa.png",
+
+      "franca": "franca.png",
+      "france": "franca.png",
+
+      "gana": "ghana.png",
+      "ghana": "ghana.png",
+
+      "haiti": "haiti.png",
+
+      "inglaterra": "inglaterra.png",
+      "england": "inglaterra.png",
+
+      "irao": "irao.png",
+      "iran": "irao.png",
+
+      "iraque": "iraque.png",
+      "iraq": "iraque.png",
+
+      "japao": "japao.png",
+      "japan": "japao.png",
+
+      "jordania": "jordania.png",
+      "jordan": "jordania.png",
+
       "marrocos": "marrocos.png",
+      "morocco": "marrocos.png",
+
       "mexico": "mexico.png",
-      "noruega": "Noruega.png",
-      "nova-zelandia": "Nova Zelândia.png",
-      "paises-baixos": "Paises Baixos.png",
-      "panama": "Panama.png",
-      "paraguai": "Paraguai.png",
-      "portugal": "Portugal.png",
-      "senegal": "Senegal.png",
-      "suecia": "Suecia.png",
-      "suica": "Suiça.png",
-      "tunisia": "Tunisia.png",
-      "turquia": "Turquia.png",
-      "uruguai": "Uruguai.png",
-      "usbequistao": "Uzbequistão.png",
-      "uzbequistao": "Uzbequistão.png",
-      "costa-do-marfim": "costa do marfim.png",
-    "curacau": "Curacao.png",
-    "curacao": "Curacao.png",
-    "curaçao": "Curacao.png"
+
+      "noruega": "noruega.png",
+      "norway": "noruega.png",
+
+      "nova-zelandia": "nova-zelandia.png",
+      "new-zealand": "nova-zelandia.png",
+
+      "paises-baixos": "paises-baixos.png",
+      "netherlands": "paises-baixos.png",
+      "holanda": "paises-baixos.png",
+
+      "panama": "panama.png",
+
+      "paraguai": "paraguai.png",
+      "paraguay": "paraguai.png",
+
+      "portugal": "portugal.png",
+
+      "senegal": "senegal.png",
+
+      "suecia": "suecia.png",
+      "sweden": "suecia.png",
+
+      "suica": "suica.png",
+      "switzerland": "suica.png",
+
+      "tunisia": "tunisia.png",
+
+      "turquia": "turquia.png",
+      "turkey": "turquia.png",
+
+      "uruguai": "uruguai.png",
+      "uruguay": "uruguai.png",
+
+      "usbequistao": "uzbequistao.png",
+      "uzbequistao": "uzbequistao.png",
+      "uzbekistan": "uzbequistao.png",
+
+      "costa-do-marfim": "costa-do-marfim.png",
+      "ivory-coast": "costa-do-marfim.png",
+      "cote-divoire": "costa-do-marfim.png",
+      "cote-d-ivoire": "costa-do-marfim.png"
     };
 
     function n(valor) {
