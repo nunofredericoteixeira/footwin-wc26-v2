@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-14 20:49:22",
+  "atualizado_em": "2026-06-14 20:57:51",
   "total_jogos": 72,
   "jogos": [
     {
@@ -11,8 +11,8 @@
       "fora": "South Africa",
       "fora_slug": "south-africa",
       "prognostico": "Mexico win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "2",
       "resultado_real_fora": "0",
       "estado": "final"
@@ -26,8 +26,8 @@
       "fora": "Czechia",
       "fora_slug": "czechia",
       "prognostico": "Czechia win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "2",
       "resultado_real_fora": "1",
       "estado": "final"
@@ -41,8 +41,8 @@
       "fora": "Bosnia and Herzegovina",
       "fora_slug": "bosnia-and-herzegovina",
       "prognostico": "Draw",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "1",
+      "previsao_fora": "1",
       "resultado_real_casa": "1",
       "resultado_real_fora": "1",
       "estado": "final"
@@ -56,8 +56,8 @@
       "fora": "Switzerland",
       "fora_slug": "switzerland",
       "prognostico": "Switzerland win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "1",
       "resultado_real_fora": "1",
       "estado": "final"
@@ -71,8 +71,8 @@
       "fora": "Morocco",
       "fora_slug": "morocco",
       "prognostico": "Brazil win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "1",
       "resultado_real_fora": "1",
       "estado": "final"
@@ -86,8 +86,8 @@
       "fora": "Paraguay",
       "fora_slug": "paraguay",
       "prognostico": "United States win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "4",
       "resultado_real_fora": "1",
       "estado": "final"
@@ -101,8 +101,8 @@
       "fora": "Turkey",
       "fora_slug": "turkey",
       "prognostico": "Turkey win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "2",
       "resultado_real_fora": "0",
       "estado": "final"
@@ -116,8 +116,8 @@
       "fora": "Scotland",
       "fora_slug": "scotland",
       "prognostico": "Scotland win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "0",
+      "previsao_fora": "2",
       "resultado_real_casa": "0",
       "resultado_real_fora": "1",
       "estado": "final"
@@ -131,8 +131,8 @@
       "fora": "Curacao",
       "fora_slug": "curacao",
       "prognostico": "Germany win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "3",
+      "previsao_fora": "0",
       "resultado_real_casa": "7",
       "resultado_real_fora": "1",
       "estado": "final"
@@ -146,8 +146,8 @@
       "fora": "Japan",
       "fora_slug": "japan",
       "prognostico": "Netherlands win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "1",
+      "previsao_fora": "0",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -161,8 +161,8 @@
       "fora": "Ecuador",
       "fora_slug": "ecuador",
       "prognostico": "Ecuador win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "0",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -176,8 +176,8 @@
       "fora": "Tunisia",
       "fora_slug": "tunisia",
       "prognostico": "Sweden win",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "previsao_casa": "1",
+      "previsao_fora": "0",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
