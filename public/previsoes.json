@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-15 21:09:57",
+  "atualizado_em": "2026-06-15 21:10:58",
   "total_jogos": 72,
   "jogos": [
     {
@@ -445,9 +445,9 @@
       "casa_slug": "scotland",
       "fora": "Morocco",
       "fora_slug": "morocco",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "1-1",
+      "previsao_casa": "1",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
