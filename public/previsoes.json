@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-15 21:07:42",
+  "atualizado_em": "2026-06-15 21:08:49",
   "total_jogos": 72,
   "jogos": [
     {
@@ -400,9 +400,9 @@
       "casa_slug": "canada",
       "fora": "Qatar",
       "fora_slug": "qatar",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
