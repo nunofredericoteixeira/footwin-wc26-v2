@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-15 20:59:36",
+  "atualizado_em": "2026-06-15 21:00:42",
   "total_jogos": 72,
   "jogos": [
     {
@@ -295,9 +295,9 @@
       "casa_slug": "austria",
       "fora": "Jordan",
       "fora_slug": "jordan",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
