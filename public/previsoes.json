@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-16 00:31:33",
+  "atualizado_em": "2026-06-16 00:35:08",
   "total_jogos": 72,
   "jogos": [
     {
@@ -208,9 +208,9 @@
       "prognostico": "3-2",
       "previsao_casa": "3",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-15",
