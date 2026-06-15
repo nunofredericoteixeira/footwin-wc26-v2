@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-15 20:57:30",
+  "atualizado_em": "2026-06-15 20:58:39",
   "total_jogos": 72,
   "jogos": [
     {
@@ -265,9 +265,9 @@
       "casa_slug": "iraq",
       "fora": "Norway",
       "fora_slug": "norway",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "1-2",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
