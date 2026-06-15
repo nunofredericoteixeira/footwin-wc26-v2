@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <title>Teste Logos Footwin</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f5f8;
+      padding: 30px;
+    }
+    h1 {
+      color: #102033;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #d8e1ec;
+      border-radius: 14px;
+      padding: 14px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(16,32,51,.08);
+    }
+    .card img {
+      width: 90px;
+      height: 90px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 10px;
+      background: #fff;
+      border-radius: 999px;
+      border: 1px solid #d8e1ec;
+    }
+    .name {
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .file {
+      font-size: 11px;
+      color: #667;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+  <h1>Teste direto dos logos</h1>
+  <div class="grid" id="grid"></div>
+
+  <script>
+    const logos = [
+      "canada.png",
+      "haiti.png",
+      "australia.png",
+      "curacao.png",
+      "senegal.png",
+      "argentina.png",
+      "austria.png",
+      "portugal.png",
+      "ghana.png",
+      "panama.png",
+      "colombia.png",
+      "spain.png",
+      "cape-verde.png",
+      "belgium.png",
+      "egypt.png",
+      "saudi-arabia.png",
+      "uruguay.png",
+      "iran.png",
+      "new-zealand.png"
+    ];
+
+    const grid = document.getElementById("grid");
+
+    logos.forEach(file => {
+      const url = `./public/logos/${file}?v=direct-test-1`;
+
+      const card = document.createElement("div");
+      card.className = "card";
+
+      card.innerHTML = `
+        <img src="${url}" alt="${file}" onerror="this.style.background='red'; this.alt='ERRO';">
+        <div class="name">${file.replace(".png", "")}</div>
+        <div class="file">${url}</div>
+      `;
+
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>
