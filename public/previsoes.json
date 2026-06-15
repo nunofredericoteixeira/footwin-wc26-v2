@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-15 21:00:42",
+  "atualizado_em": "2026-06-15 21:01:44",
   "total_jogos": 72,
   "jogos": [
     {
@@ -310,9 +310,9 @@
       "casa_slug": "portugal",
       "fora": "DR Congo",
       "fora_slug": "dr-congo",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "3-1",
+      "previsao_casa": "3",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
