@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-15 20:39:48",
+  "atualizado_em": "2026-06-15 20:57:30",
   "total_jogos": 72,
   "jogos": [
     {
@@ -250,9 +250,9 @@
       "casa_slug": "france",
       "fora": "Senegal",
       "fora_slug": "senegal",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
