@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-15 05:49:56",
+  "atualizado_em": "2026-06-15 05:56:04",
   "total_jogos": 72,
   "jogos": [
     {
@@ -191,7 +191,7 @@
       "fora": "Cape Verde",
       "fora_slug": "cape-verde",
       "prognostico": "4-0",
-      "previsao_casa": "3",
+      "previsao_casa": "4",
       "previsao_fora": "0",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
@@ -206,8 +206,8 @@
       "fora": "Egypt",
       "fora_slug": "egypt",
       "prognostico": "3-2",
-      "previsao_casa": "1",
-      "previsao_fora": "0",
+      "previsao_casa": "3",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -221,8 +221,8 @@
       "fora": "Uruguay",
       "fora_slug": "uruguay",
       "prognostico": "1-2",
-      "previsao_casa": "0",
-      "previsao_fora": "1",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
