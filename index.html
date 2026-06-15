@@ -897,127 +897,94 @@
     }
 
     function getLogoPath(teamName) {
-      const slug = slugifyCountry(teamName);
+      const aliases = {
+        "usa": "united-states",
+        "eua": "united-states",
+        "estados-unidos": "united-states",
+        "united-states-of-america": "united-states",
 
-      const logoMap = {
-        "mexico": "mexico.png",
-        "south-africa": "south-africa.png",
-        "south-korea": "south-korea.png",
-        "czechia": "czechia.png",
-        "canada": "canada.png",
-        "bosnia-and-herzegovina": "bosnia-and-herzegovina.png",
-        "qatar": "qatar.png",
-        "switzerland": "switzerland.png",
-        "united-states": "united-states.png",
-        "paraguay": "paraguay.png",
-        "brazil": "brazil.png",
-        "morocco": "morocco.png",
-        "haiti": "haiti.png",
-        "scotland": "scotland.png",
-        "australia": "australia.png",
-        "turkey": "turkey.png",
-        "germany": "germany.png",
-        "curacao": "curacao.png",
-        "netherlands": "netherlands.png",
-        "japan": "japan.png",
-        "ivory-coast": "ivory-coast.png",
-        "ecuador": "ecuador.png",
-        "sweden": "sweden.png",
-        "tunisia": "tunisia.png",
-        "spain": "spain.png",
-        "cape-verde": "cape-verde.png",
-        "belgium": "belgium.png",
-        "egypt": "egypt.png",
-        "saudi-arabia": "saudi-arabia.png",
-        "uruguay": "uruguay.png",
-        "iran": "iran.png",
-        "new-zealand": "new-zealand.png",
-        "france": "france.png",
-        "senegal": "senegal.png",
-        "iraq": "iraq.png",
-        "norway": "norway.png",
-        "argentina": "argentina.png",
-        "algeria": "algeria.png",
-        "austria": "austria.png",
-        "jordan": "jordan.png",
-        "portugal": "portugal.png",
-        "dr-congo": "dr-congo.png",
-        "uzbekistan": "uzbekistan.png",
-        "colombia": "colombia.png",
-        "england": "england.png",
-        "croatia": "croatia.png",
-        "ghana": "ghana.png",
-        "panama": "panama.png",
+        "coreia-do-sul": "south-korea",
+        "republica-da-coreia": "south-korea",
+        "korea-republic": "south-korea",
 
-        "usa": "united-states.png",
-        "eua": "united-states.png",
-        "estados-unidos": "united-states.png",
-        "coreia-do-sul": "south-korea.png",
-        "republica-da-coreia": "south-korea.png",
-        "chequia": "czechia.png",
-        "republica-checa": "czechia.png",
-        "africa-do-sul": "south-africa.png",
-        "paises-baixos": "netherlands.png",
-        "holanda": "netherlands.png",
-        "costa-do-marfim": "ivory-coast.png",
-        "cabo-verde": "cape-verde.png",
-        "arabia-saudita": "saudi-arabia.png",
-        "nova-zelandia": "new-zealand.png",
-        "egito": "egypt.png",
-        "egipto": "egypt.png",
-        "belgica": "belgium.png",
-        "uruguai": "uruguay.png",
-        "japao": "japan.png",
-        "suecia": "sweden.png",
-        "suica": "switzerland.png",
-        "marrocos": "morocco.png",
-        "escocia": "scotland.png",
-        "alemanha": "germany.png",
-        "franca": "france.png",
-        "iraque": "iraq.png",
-        "noruega": "norway.png",
-        "argelia": "algeria.png",
-        "jordania": "jordan.png",
-        "uzbequistao": "uzbekistan.png",
-        "gana": "ghana.png",
-        "inglaterra": "england.png",
-        "croacia": "croatia.png",
-        "equador": "ecuador.png",
-        "brasil": "brazil.png",
-        "paraguai": "paraguay.png",
-        "espanha": "spain.png",
-        "irao": "iran.png",
-        "congo-dr": "dr-congo.png",
-        "rd-congo": "dr-congo.png",
-        "congo-rd": "dr-congo.png"
+        "chequia": "czechia",
+        "republica-checa": "czechia",
+        "czech-republic": "czechia",
+
+        "turquia": "turkey",
+        "turkiye": "turkey",
+
+        "paises-baixos": "netherlands",
+        "holanda": "netherlands",
+
+        "africa-do-sul": "south-africa",
+        "rsa": "south-africa",
+
+        "costa-do-marfim": "ivory-coast",
+        "cote-d-ivoire": "ivory-coast",
+
+        "cabo-verde": "cape-verde",
+        "arabia-saudita": "saudi-arabia",
+        "nova-zelandia": "new-zealand",
+
+        "egito": "egypt",
+        "egipto": "egypt",
+        "belgica": "belgium",
+        "uruguai": "uruguay",
+        "japao": "japan",
+        "suecia": "sweden",
+        "suica": "switzerland",
+        "marrocos": "morocco",
+        "escocia": "scotland",
+        "alemanha": "germany",
+        "franca": "france",
+        "iraque": "iraq",
+        "noruega": "norway",
+        "argelia": "algeria",
+        "jordania": "jordan",
+        "uzbequistao": "uzbekistan",
+        "gana": "ghana",
+        "inglaterra": "england",
+        "croacia": "croatia",
+        "equador": "ecuador",
+        "brasil": "brazil",
+        "paraguai": "paraguay",
+        "espanha": "spain",
+        "irao": "iran",
+
+        "congo-dr": "dr-congo",
+        "rd-congo": "dr-congo",
+        "congo-rd": "dr-congo",
+        "democratic-republic-of-congo": "dr-congo"
       };
 
-      const filename = logoMap[slug] || `${slug}.png`;
+      const rawSlug = slugifyCountry(teamName);
+      const slug = aliases[rawSlug] || rawSlug;
 
-      if (!slug || !filename) {
+      if (!slug) {
         return "";
       }
 
-      return `./public/logos/${filename}?v=logos11`;
+      return `https://nunofredericoteixeira.github.io/footwin-wc26-v2/public/logos/${slug}.png?v=logos12`;
     }
 
     function buildLogo(teamName) {
       const src = getLogoPath(teamName);
+      const safeName = escapeHtml(teamName || "");
+      const fallback = escapeHtml(String(teamName || "?").trim().slice(0, 2).toUpperCase());
 
       if (!src) {
-        return "";
+        return `<div class="logo-shell" title="${safeName}"><span>${fallback}</span></div>`;
       }
 
+      const finalSrc = `${src}&t=${Date.now()}`;
+
       return `
-        <div class="logo-shell">
-          <img
-            class="team-logo"
-            src="${src}"
-            alt="${escapeHtml(teamName)}"
-            loading="lazy"
-            onerror="this.parentElement.style.display='none';"
-          />
-        </div>
+        <div
+          class="logo-shell"
+          title="${safeName}"
+          style="background-image: url('${finalSrc}'); background-size: contain; background-position: center; background-repeat: no-repeat;"
+        ></div>
       `;
     }
 
