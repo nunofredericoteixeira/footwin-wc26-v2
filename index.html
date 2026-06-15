@@ -897,14 +897,84 @@
     }
 
     function getLogoPath(teamName) {
-      const slug = slugifyCountry(teamName);
-      const filename = LOGO_FILES[slug] || `${slug}.png`;
+      const aliases = {
+        "usa": "united-states",
+        "eua": "united-states",
+        "estados-unidos": "united-states",
+        "united-states-of-america": "united-states",
 
-      if (!filename) {
+        "south-korea": "south-korea",
+        "coreia-do-sul": "south-korea",
+        "republica-da-coreia": "south-korea",
+        "korea-republic": "south-korea",
+
+        "czech-republic": "czechia",
+        "republica-checa": "czechia",
+        "chequia": "czechia",
+
+        "turkiye": "turkey",
+        "turquia": "turkey",
+
+        "paises-baixos": "netherlands",
+        "holanda": "netherlands",
+
+        "africa-do-sul": "south-africa",
+        "rsa": "south-africa",
+
+        "cote-d-ivoire": "ivory-coast",
+        "costa-do-marfim": "ivory-coast",
+
+        "congo-dr": "dr-congo",
+        "rd-congo": "dr-congo",
+        "congo-rd": "dr-congo",
+        "democratic-republic-of-congo": "dr-congo",
+
+        "cabo-verde": "cape-verde",
+        "arabia-saudita": "saudi-arabia",
+        "saudi": "saudi-arabia",
+        "nova-zelandia": "new-zealand",
+
+        "egito": "egypt",
+        "egipto": "egypt",
+        "belgica": "belgium",
+        "uruguai": "uruguay",
+        "japao": "japan",
+        "suecia": "sweden",
+        "suica": "switzerland",
+        "marrocos": "morocco",
+        "escocia": "scotland",
+        "alemanha": "germany",
+        "franca": "france",
+        "iraque": "iraq",
+        "noruega": "norway",
+        "argelia": "algeria",
+        "austria": "austria",
+        "jordania": "jordan",
+        "uzbequistao": "uzbekistan",
+        "colombia": "colombia",
+        "gana": "ghana",
+        "panama": "panama",
+        "inglaterra": "england",
+        "croacia": "croatia",
+        "equador": "ecuador",
+        "brasil": "brazil",
+        "paraguai": "paraguay",
+        "mexico": "mexico",
+        "canada": "canada",
+        "espanha": "spain",
+        "portugal": "portugal",
+        "iran": "iran",
+        "irao": "iran"
+      };
+
+      const rawSlug = slugifyCountry(teamName);
+      const slug = aliases[rawSlug] || rawSlug;
+
+      if (!slug) {
         return "";
       }
 
-      return `./public/logos/${encodeURIComponent(filename)}`;
+      return `./public/logos/${slug}.png`;
     }
 
     function buildLogo(teamName) {
