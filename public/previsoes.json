@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-15 05:56:04",
+  "atualizado_em": "2026-06-15 06:07:15",
   "total_jogos": 72,
   "jogos": [
     {
@@ -235,7 +235,7 @@
       "casa_slug": "iran",
       "fora": "New Zealand",
       "fora_slug": "new-zealand",
-      "prognostico": "1-2",
+      "prognostico": "",
       "previsao_casa": "",
       "previsao_fora": "",
       "resultado_real_casa": "",
@@ -250,7 +250,7 @@
       "casa_slug": "france",
       "fora": "Senegal",
       "fora_slug": "senegal",
-      "prognostico": "2-1",
+      "prognostico": "",
       "previsao_casa": "",
       "previsao_fora": "",
       "resultado_real_casa": "",
@@ -265,7 +265,7 @@
       "casa_slug": "iraq",
       "fora": "Norway",
       "fora_slug": "norway",
-      "prognostico": "1-2",
+      "prognostico": "",
       "previsao_casa": "",
       "previsao_fora": "",
       "resultado_real_casa": "",
