@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-15 04:12:59",
+  "atualizado_em": "2026-06-15 05:49:56",
   "total_jogos": 72,
   "jogos": [
     {
@@ -178,9 +178,9 @@
       "prognostico": "Sweden win",
       "previsao_casa": "1",
       "previsao_fora": "0",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "5",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-15",
@@ -190,7 +190,7 @@
       "casa_slug": "spain",
       "fora": "Cape Verde",
       "fora_slug": "cape-verde",
-      "prognostico": "Spain win",
+      "prognostico": "4-0",
       "previsao_casa": "3",
       "previsao_fora": "0",
       "resultado_real_casa": "",
@@ -205,7 +205,7 @@
       "casa_slug": "belgium",
       "fora": "Egypt",
       "fora_slug": "egypt",
-      "prognostico": "Belgium win",
+      "prognostico": "3-2",
       "previsao_casa": "1",
       "previsao_fora": "0",
       "resultado_real_casa": "",
@@ -220,7 +220,7 @@
       "casa_slug": "saudi-arabia",
       "fora": "Uruguay",
       "fora_slug": "uruguay",
-      "prognostico": "Uruguay win",
+      "prognostico": "1-2",
       "previsao_casa": "0",
       "previsao_fora": "1",
       "resultado_real_casa": "",
@@ -235,7 +235,7 @@
       "casa_slug": "iran",
       "fora": "New Zealand",
       "fora_slug": "new-zealand",
-      "prognostico": "",
+      "prognostico": "1-2",
       "previsao_casa": "",
       "previsao_fora": "",
       "resultado_real_casa": "",
@@ -250,7 +250,7 @@
       "casa_slug": "france",
       "fora": "Senegal",
       "fora_slug": "senegal",
-      "prognostico": "",
+      "prognostico": "2-1",
       "previsao_casa": "",
       "previsao_fora": "",
       "resultado_real_casa": "",
@@ -265,7 +265,7 @@
       "casa_slug": "iraq",
       "fora": "Norway",
       "fora_slug": "norway",
-      "prognostico": "",
+      "prognostico": "1-2",
       "previsao_casa": "",
       "previsao_fora": "",
       "resultado_real_casa": "",
