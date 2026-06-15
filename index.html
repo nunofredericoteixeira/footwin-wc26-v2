@@ -992,14 +992,13 @@
         "congo-rd": "dr-congo.png"
       };
 
-      const filename = logoMap[slug];
+      const filename = logoMap[slug] || `${slug}.png`;
 
-      if (!filename) {
-        console.warn("Logo não mapeado:", teamName, slug);
+      if (!slug || !filename) {
         return "";
       }
 
-      return `https://nunofredericoteixeira.github.io/footwin-wc26-v2/public/logos/${filename}?v=logos10`;
+      return `./public/logos/${filename}?v=logos11`;
     }
 
     function buildLogo(teamName) {
