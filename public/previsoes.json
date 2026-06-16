@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-16 01:16:29",
+  "atualizado_em": "2026-06-16 01:45:10",
   "total_jogos": 72,
   "jogos": [
     {
@@ -223,9 +223,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-16",
@@ -281,8 +281,8 @@
       "fora": "Algeria",
       "fora_slug": "algeria",
       "prognostico": "",
-      "previsao_casa": "2",
-      "previsao_fora": "1",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -296,8 +296,8 @@
       "fora": "Jordan",
       "fora_slug": "jordan",
       "prognostico": "",
-      "previsao_casa": "2",
-      "previsao_fora": "1",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -311,8 +311,8 @@
       "fora": "DR Congo",
       "fora_slug": "dr-congo",
       "prognostico": "",
-      "previsao_casa": "3",
-      "previsao_fora": "1",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -326,8 +326,8 @@
       "fora": "Croatia",
       "fora_slug": "croatia",
       "prognostico": "",
-      "previsao_casa": "2",
-      "previsao_fora": "1",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -341,8 +341,8 @@
       "fora": "Panama",
       "fora_slug": "panama",
       "prognostico": "",
-      "previsao_casa": "2",
-      "previsao_fora": "2",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -356,8 +356,8 @@
       "fora": "Colombia",
       "fora_slug": "colombia",
       "prognostico": "",
-      "previsao_casa": "1",
-      "previsao_fora": "2",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -371,8 +371,8 @@
       "fora": "South Africa",
       "fora_slug": "south-africa",
       "prognostico": "",
-      "previsao_casa": "2",
-      "previsao_fora": "1",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -386,8 +386,8 @@
       "fora": "Bosnia and Herzegovina",
       "fora_slug": "bosnia-and-herzegovina",
       "prognostico": "",
-      "previsao_casa": "2",
-      "previsao_fora": "1",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -401,8 +401,8 @@
       "fora": "Qatar",
       "fora_slug": "qatar",
       "prognostico": "",
-      "previsao_casa": "2",
-      "previsao_fora": "1",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -431,8 +431,8 @@
       "fora": "Australia",
       "fora_slug": "australia",
       "prognostico": "",
-      "previsao_casa": "2",
-      "previsao_fora": "1",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -446,8 +446,8 @@
       "fora": "Morocco",
       "fora_slug": "morocco",
       "prognostico": "",
-      "previsao_casa": "1",
-      "previsao_fora": "1",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
