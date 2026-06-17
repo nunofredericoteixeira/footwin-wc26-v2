@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-17 01:31:27",
+  "atualizado_em": "2026-06-17 01:37:03",
   "total_jogos": 72,
   "jogos": [
     {
@@ -253,8 +253,8 @@
       "prognostico": "2-1",
       "previsao_casa": "2",
       "previsao_fora": "1",
-      "resultado_real_casa": "1",
-      "resultado_real_fora": "4",
+      "resultado_real_casa": "3",
+      "resultado_real_fora": "1",
       "estado": "final"
     },
     {
@@ -268,8 +268,8 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "2",
-      "resultado_real_fora": "0",
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "4",
       "estado": "final"
     },
     {
