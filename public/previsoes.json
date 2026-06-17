@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-17 01:37:03",
+  "atualizado_em": "2026-06-17 02:11:52",
   "total_jogos": 72,
   "jogos": [
     {
@@ -415,9 +415,9 @@
       "casa_slug": "mexico",
       "fora": "South Korea",
       "fora_slug": "south-korea",
-      "prognostico": "2-2",
-      "previsao_casa": "2",
-      "previsao_fora": "2",
+      "prognostico": "",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
