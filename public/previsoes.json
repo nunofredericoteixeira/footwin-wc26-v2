@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-17 07:17:14",
+  "atualizado_em": "2026-06-18 11:06:50",
   "total_jogos": 72,
   "jogos": [
     {
@@ -313,9 +313,9 @@
       "prognostico": "3-1",
       "previsao_casa": "3",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-17",
@@ -328,9 +328,9 @@
       "prognostico": "2-1",
       "previsao_casa": "2",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "4",
+      "resultado_real_fora": "2",
+      "estado": "final"
     },
     {
       "data": "2026-06-18",
@@ -343,9 +343,9 @@
       "prognostico": "2-2",
       "previsao_casa": "2",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "0",
+      "estado": "final"
     },
     {
       "data": "2026-06-18",
@@ -358,9 +358,9 @@
       "prognostico": "",
       "previsao_casa": "",
       "previsao_fora": "",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "3",
+      "estado": "final"
     },
     {
       "data": "2026-06-18",
@@ -370,9 +370,9 @@
       "casa_slug": "czechia",
       "fora": "South Africa",
       "fora_slug": "south-africa",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -385,9 +385,9 @@
       "casa_slug": "switzerland",
       "fora": "Bosnia and Herzegovina",
       "fora_slug": "bosnia-and-herzegovina",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -400,9 +400,9 @@
       "casa_slug": "canada",
       "fora": "Qatar",
       "fora_slug": "qatar",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
