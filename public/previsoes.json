@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-19 20:44:53",
+  "atualizado_em": "2026-06-19 20:47:10",
   "total_jogos": 72,
   "jogos": [
     {
@@ -460,9 +460,9 @@
       "casa_slug": "brazil",
       "fora": "Haiti",
       "fora_slug": "haiti",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "4-0",
+      "previsao_casa": "4",
+      "previsao_fora": "0",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
