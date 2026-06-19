@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-18 22:16:30",
+  "atualizado_em": "2026-06-19 01:17:28",
   "total_jogos": 72,
   "jogos": [
     {
@@ -403,9 +403,9 @@
       "prognostico": "2-1",
       "previsao_casa": "2",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "6",
+      "resultado_real_fora": "0",
+      "estado": "final"
     },
     {
       "data": "2026-06-19",
@@ -415,9 +415,9 @@
       "casa_slug": "mexico",
       "fora": "South Korea",
       "fora_slug": "south-korea",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-2",
+      "previsao_casa": "2",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
