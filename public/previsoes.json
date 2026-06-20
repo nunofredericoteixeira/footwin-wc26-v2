@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-20 22:56:23",
+  "atualizado_em": "2026-06-20 23:07:39",
   "total_jogos": 72,
   "jogos": [
     {
@@ -508,9 +508,9 @@
       "prognostico": "2-2",
       "previsao_casa": "2",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "2",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-21",
@@ -550,9 +550,9 @@
       "casa_slug": "spain",
       "fora": "Saudi Arabia",
       "fora_slug": "saudi-arabia",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "4-0",
+      "previsao_casa": "4",
+      "previsao_fora": "0",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
