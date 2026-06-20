@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-19 20:56:10",
+  "atualizado_em": "2026-06-20 01:22:14",
   "total_jogos": 72,
   "jogos": [
     {
@@ -433,9 +433,9 @@
       "prognostico": "2-1",
       "previsao_casa": "2",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "2",
+      "resultado_real_fora": "0",
+      "estado": "final"
     },
     {
       "data": "2026-06-19",
@@ -448,9 +448,9 @@
       "prognostico": "1-1",
       "previsao_casa": "1",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "0",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-20",
@@ -475,9 +475,9 @@
       "casa_slug": "turkey",
       "fora": "Paraguay",
       "fora_slug": "paraguay",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -490,9 +490,9 @@
       "casa_slug": "netherlands",
       "fora": "Sweden",
       "fora_slug": "sweden",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
