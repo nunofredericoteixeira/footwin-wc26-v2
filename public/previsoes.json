@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-21 18:58:31",
+  "atualizado_em": "2026-06-21 19:09:45",
   "total_jogos": 72,
   "jogos": [
     {
@@ -553,9 +553,9 @@
       "prognostico": "4-0",
       "previsao_casa": "4",
       "previsao_fora": "0",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "4",
+      "resultado_real_fora": "0",
+      "estado": "final"
     },
     {
       "data": "2026-06-21",
@@ -595,9 +595,9 @@
       "casa_slug": "new-zealand",
       "fora": "Egypt",
       "fora_slug": "egypt",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "1-2",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
