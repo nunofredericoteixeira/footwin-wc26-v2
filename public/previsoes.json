@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-23 22:58:17",
+  "atualizado_em": "2026-06-23 23:09:50",
   "total_jogos": 72,
   "jogos": [
     {
@@ -688,9 +688,9 @@
       "prognostico": "3-1",
       "previsao_casa": "3",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "0",
+      "resultado_real_fora": "0",
+      "estado": "final"
     },
     {
       "data": "2026-06-24",
@@ -745,9 +745,9 @@
       "casa_slug": "switzerland",
       "fora": "Canada",
       "fora_slug": "canada",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "1-1",
+      "previsao_casa": "1",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
