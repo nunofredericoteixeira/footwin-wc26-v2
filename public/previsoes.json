@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-23 05:53:21",
+  "atualizado_em": "2026-06-23 06:04:49",
   "total_jogos": 72,
   "jogos": [
     {
@@ -658,9 +658,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "2",
+      "estado": "final"
     },
     {
       "data": "2026-06-23",
@@ -700,9 +700,9 @@
       "casa_slug": "panama",
       "fora": "Croatia",
       "fora_slug": "croatia",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "1-2",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
