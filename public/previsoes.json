@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-24 01:47:30",
+  "atualizado_em": "2026-06-24 01:58:48",
   "total_jogos": 72,
   "jogos": [
     {
@@ -703,9 +703,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "0",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-24",
@@ -730,9 +730,9 @@
       "casa_slug": "bosnia-and-herzegovina",
       "fora": "Qatar",
       "fora_slug": "qatar",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-2",
+      "previsao_casa": "2",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
