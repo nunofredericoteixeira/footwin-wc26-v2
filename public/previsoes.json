@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-24 21:55:04",
+  "atualizado_em": "2026-06-24 22:06:23",
   "total_jogos": 72,
   "jogos": [
     {
@@ -733,9 +733,9 @@
       "prognostico": "2-2",
       "previsao_casa": "2",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "3",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-24",
@@ -748,9 +748,9 @@
       "prognostico": "1-1",
       "previsao_casa": "1",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "2",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-24",
@@ -760,9 +760,9 @@
       "casa_slug": "morocco",
       "fora": "Haiti",
       "fora_slug": "haiti",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "3-0",
+      "previsao_casa": "3",
+      "previsao_fora": "0",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -805,9 +805,9 @@
       "casa_slug": "czechia",
       "fora": "Mexico",
       "fora_slug": "mexico",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-2",
+      "previsao_casa": "2",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
