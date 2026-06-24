@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-24 04:49:17",
+  "atualizado_em": "2026-06-24 05:00:39",
   "total_jogos": 72,
   "jogos": [
     {
@@ -718,9 +718,9 @@
       "prognostico": "2-2",
       "previsao_casa": "2",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "0",
+      "estado": "final"
     },
     {
       "data": "2026-06-24",
@@ -775,9 +775,9 @@
       "casa_slug": "scotland",
       "fora": "Brazil",
       "fora_slug": "brazil",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "1-2",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
