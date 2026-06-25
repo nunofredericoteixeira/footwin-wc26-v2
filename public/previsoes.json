@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-25 00:56:27",
+  "atualizado_em": "2026-06-25 01:07:47",
   "total_jogos": 72,
   "jogos": [
     {
@@ -763,9 +763,9 @@
       "prognostico": "3-0",
       "previsao_casa": "3",
       "previsao_fora": "0",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "4",
+      "resultado_real_fora": "2",
+      "estado": "final"
     },
     {
       "data": "2026-06-24",
@@ -778,9 +778,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "0",
+      "resultado_real_fora": "3",
+      "estado": "final"
     },
     {
       "data": "2026-06-25",
@@ -820,9 +820,9 @@
       "casa_slug": "curacao",
       "fora": "Ivory Coast",
       "fora_slug": "ivory-coast",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "1-2",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -835,9 +835,9 @@
       "casa_slug": "ecuador",
       "fora": "Germany",
       "fora_slug": "germany",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "1-2",
+      "previsao_casa": "1",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
