@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-25 22:54:02",
+  "atualizado_em": "2026-06-25 23:05:45",
   "total_jogos": 72,
   "jogos": [
     {
@@ -823,9 +823,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "0",
+      "resultado_real_fora": "2",
+      "estado": "final"
     },
     {
       "data": "2026-06-25",
@@ -838,9 +838,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "2",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-26",
@@ -850,9 +850,9 @@
       "casa_slug": "japan",
       "fora": "Sweden",
       "fora_slug": "sweden",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-2",
+      "previsao_casa": "2",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -895,9 +895,9 @@
       "casa_slug": "turkey",
       "fora": "United States",
       "fora_slug": "united-states",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-2",
+      "previsao_casa": "2",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
