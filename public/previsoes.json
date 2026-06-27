@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-27 23:57:39",
+  "atualizado_em": "2026-06-28 00:09:01",
   "total_jogos": 72,
   "jogos": [
     {
@@ -1003,9 +1003,9 @@
       "prognostico": "2-2",
       "previsao_casa": "2",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "2",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-27",
@@ -1075,9 +1075,9 @@
       "casa_slug": "jordan",
       "fora": "Argentina",
       "fora_slug": "argentina",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "0-3",
+      "previsao_casa": "0",
+      "previsao_fora": "3",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
