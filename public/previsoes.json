@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-27 02:56:31",
+  "atualizado_em": "2026-06-27 03:07:53",
   "total_jogos": 72,
   "jogos": [
     {
@@ -943,9 +943,9 @@
       "prognostico": "1-1",
       "previsao_casa": "1",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "0",
+      "resultado_real_fora": "0",
+      "estado": "final"
     },
     {
       "data": "2026-06-27",
@@ -958,9 +958,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "0",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-27",
@@ -970,9 +970,9 @@
       "casa_slug": "egypt",
       "fora": "Iran",
       "fora_slug": "iran",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "3-1",
+      "previsao_casa": "3",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
@@ -1015,9 +1015,9 @@
       "casa_slug": "panama",
       "fora": "England",
       "fora_slug": "england",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "0-3",
+      "previsao_casa": "0",
+      "previsao_fora": "3",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
