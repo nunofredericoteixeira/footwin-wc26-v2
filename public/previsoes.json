@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-29 05:01:34",
+  "atualizado_em": "2026-06-29 05:03:39",
   "total_jogos": 88,
   "jogos": [
     {
@@ -1120,9 +1120,9 @@
       "casa_slug": "germany",
       "fora": "Paraguay",
       "fora_slug": "paraguay",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "3-1",
+      "previsao_casa": "3",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
