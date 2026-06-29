@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-29 05:35:38",
+  "atualizado_em": "2026-06-29 05:51:37",
   "total_jogos": 88,
   "jogos": [
     {
@@ -1165,9 +1165,9 @@
       "casa_slug": "france",
       "fora": "Sweden",
       "fora_slug": "sweden",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
