@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-29 07:11:19",
+  "atualizado_em": "2026-06-29 07:27:18",
   "total_jogos": 88,
   "jogos": [
     {
@@ -1255,9 +1255,9 @@
       "casa_slug": "portugal",
       "fora": "Croatia",
       "fora_slug": "croatia",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-1",
+      "previsao_casa": "2",
+      "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
