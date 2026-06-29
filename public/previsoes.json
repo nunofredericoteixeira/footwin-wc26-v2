@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-29 08:15:08",
+  "atualizado_em": "2026-06-29 08:31:03",
   "total_jogos": 88,
   "jogos": [
     {
@@ -1315,9 +1315,9 @@
       "casa_slug": "colombia",
       "fora": "Ghana",
       "fora_slug": "ghana",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-2",
+      "previsao_casa": "2",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
