@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-29 05:51:37",
+  "atualizado_em": "2026-06-29 06:07:35",
   "total_jogos": 88,
   "jogos": [
     {
@@ -1180,9 +1180,9 @@
       "casa_slug": "mexico",
       "fora": "Ecuador",
       "fora_slug": "ecuador",
-      "prognostico": "",
-      "previsao_casa": "",
-      "previsao_fora": "",
+      "prognostico": "2-2",
+      "previsao_casa": "2",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
