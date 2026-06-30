@@ -1114,7 +1114,7 @@
             <div class="match-top">
               <span class="match-date">${escapeHtml(jogo.data || "")}</span>
               <span class="match-time">${escapeHtml(jogo.hora || "")}</span>
-              <strong class="match-group">${escapeHtml(nomeGrupoOuFase(jogo.grupo))}</strong>
+              <strong class="match-group">Grupo ${escapeHtml(jogo.grupo || "-")}</strong>
             </div>
 
             <div class="teams">
@@ -1294,49 +1294,15 @@
       renderBettingMarket("correct_score", betListCorrectScore, summaryCorrectScore);
     }
 
-    function nomeGrupoOuFase(grupo) {
-      const g = String(grupo || "").trim();
-
-      const nomes = {
-        R32: "16 avos de final",
-        R16: "Oitavos de final",
-        QF: "Quartos de final",
-        SF: "Meias-finais",
-        FINAL: "Final",
-        "3P": "3.º lugar"
-      };
-
-      if (nomes[g]) return nomes[g];
-
-      if (/^[A-L]$/.test(g)) return `Grupo ${g}`;
-
-      return g || "-";
-    }
-
     function preencherGrupos() {
-      const ordem = ["A","B","C","D","E","F","G","H","I","J","K","L","R32","R16","QF","SF","3P","FINAL"];
+      const grupos = [...new Set(dados.jogos.map(j => j.grupo).filter(Boolean))].sort();
 
-      const grupos = [...new Set(
-        dados.jogos
-          .map(j => String(j.grupo || "").trim())
-          .filter(Boolean)
-      )].sort((a, b) => {
-        const ia = ordem.indexOf(a);
-        const ib = ordem.indexOf(b);
-
-        if (ia === -1 && ib === -1) return a.localeCompare(b);
-        if (ia === -1) return 1;
-        if (ib === -1) return -1;
-
-        return ia - ib;
-      });
-
-      grupoSelect.innerHTML = '<option value="Todos">Todos os jogos</option>';
+      grupoSelect.innerHTML = '<option value="Todos">Todos os grupos</option>';
 
       grupos.forEach((grupo) => {
         const option = document.createElement("option");
         option.value = grupo;
-        option.textContent = nomeGrupoOuFase(grupo);
+        option.textContent = `Grupo ${grupo}`;
         grupoSelect.appendChild(option);
       });
     }
