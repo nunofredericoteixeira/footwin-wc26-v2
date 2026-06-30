@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-30 04:44:17",
+  "atualizado_em": "2026-06-30 04:58:03",
   "total_jogos": 88,
   "jogos": [
     {
@@ -1093,9 +1093,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "0",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-29",
@@ -1108,9 +1108,9 @@
       "prognostico": "2-1",
       "previsao_casa": "2",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "2",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-29",
@@ -1123,9 +1123,9 @@
       "prognostico": "3-1",
       "previsao_casa": "3",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-30",
@@ -1138,9 +1138,9 @@
       "prognostico": "2-1",
       "previsao_casa": "2",
       "previsao_fora": "1",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-06-30",
