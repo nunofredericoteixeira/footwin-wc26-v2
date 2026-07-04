@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-04 01:02:46",
+  "atualizado_em": "2026-07-04 01:18:43",
   "total_jogos": 88,
   "jogos": [
     {
@@ -1303,9 +1303,9 @@
       "prognostico": "3-0",
       "previsao_casa": "3",
       "previsao_fora": "0",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "2",
+      "resultado_real_fora": "2",
+      "estado": "final"
     },
     {
       "data": "2026-07-04",
