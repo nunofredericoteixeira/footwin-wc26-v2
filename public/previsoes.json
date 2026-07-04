@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-07-04 04:47:11",
-  "total_jogos": 95,
+  "atualizado_em": "2026-07-04 04:57:24",
+  "total_jogos": 96,
   "jogos": [
     {
       "data": "2026-06-11",
@@ -1318,9 +1318,9 @@
       "prognostico": "2-2",
       "previsao_casa": "2",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "0",
+      "estado": "final"
     },
     {
       "data": "2026-07-04",
@@ -1422,6 +1422,21 @@
       "fora_slug": "egypt",
       "prognostico": "3-1",
       "previsao_casa": "3",
+      "previsao_fora": "1",
+      "resultado_real_casa": "",
+      "resultado_real_fora": "",
+      "estado": "previsto"
+    },
+    {
+      "data": "2026-07-07",
+      "hora": "21:00",
+      "grupo": "R16",
+      "casa": "Switzerland",
+      "casa_slug": "switzerland",
+      "fora": "Colombia",
+      "fora_slug": "colombia",
+      "prognostico": "1-1",
+      "previsao_casa": "1",
       "previsao_fora": "1",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
