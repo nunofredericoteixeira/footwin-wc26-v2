@@ -42,7 +42,7 @@ from typing import Any, Dict, List, Optional, Tuple
 from openpyxl import load_workbook
 
 
-BASE_DIR = "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Footwin World Cup 2026"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EXCEL_FILE = os.path.join(BASE_DIR, "mundial_2026_db.xlsx")
 
 MODELO_VERSAO = "modelo_v13_janela_movel_3"
