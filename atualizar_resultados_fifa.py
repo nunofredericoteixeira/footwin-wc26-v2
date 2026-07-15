@@ -22,9 +22,7 @@ FIFA_URL = (
     "canadamexicousa2026/scores-fixtures?country=PT&wtw-filter=ALL"
 )
 
-EXCEL_PATH = Path(
-    "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Footwin World Cup 2026/mundial_2026_db.xlsx"
-)
+EXCEL_PATH = Path(__file__).resolve().parent / "mundial_2026_db.xlsx"
 
 SHEET_NAME = "atualização"
 
