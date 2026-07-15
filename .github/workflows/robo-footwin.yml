@@ -34,7 +34,24 @@ jobs:
 
       - name: 1 - Atualizar jogos e resultados FIFA
         run: |
-          python atualizar_resultados_fifa.py
+          echo "PASTA ATUAL:"
+          pwd
+
+          echo ""
+          echo "FICHEIROS NA RAIZ:"
+          ls -lah
+
+          echo ""
+          echo "CAMINHO DO EXCEL NO SCRIPT:"
+          grep -n "EXCEL_PATH" atualizar_resultados_fifa.py || true
+
+          echo ""
+          echo "TESTE DO EXCEL:"
+          python -c 'from pathlib import Path; p=Path("mundial_2026_db.xlsx"); print("Existe:", p.exists()); print("Caminho:", p.resolve()); print("Tamanho:", p.stat().st_size if p.exists() else None)'
+
+          echo ""
+          echo "EXECUTAR ATUALIZADOR:"
+          python -u atualizar_resultados_fifa.py
 
       - name: 2 - Aplicar resultados ao Calendario
         run: |
