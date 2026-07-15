@@ -73,7 +73,11 @@ jobs:
         run: |
           for i in {1..20}
           do
+            set +e
             OUTPUT=$(python gerar_proximo_prognostico.py 2>&1)
+            STATUS=$?
+            set -e
+
             echo "$OUTPUT"
 
             if echo "$OUTPUT" | grep -qi "Não há jogos elegíveis para prognóstico"; then
@@ -84,6 +88,11 @@ jobs:
             if echo "$OUTPUT" | grep -qi "Nao ha jogos elegiveis para prognostico"; then
               echo "Não existem mais jogos sem prognóstico."
               break
+            fi
+
+            if [ "$STATUS" -ne 0 ]; then
+              echo "ERRO REAL ao gerar prognóstico. Código de saída: $STATUS"
+              exit "$STATUS"
             fi
           done
 
