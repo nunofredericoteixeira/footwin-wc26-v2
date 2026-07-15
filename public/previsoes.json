@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-07-09 21:34:25",
-  "total_jogos": 100,
+  "atualizado_em": "2026-07-15 01:53:50",
+  "total_jogos": 102,
   "jogos": [
     {
       "data": "2026-06-11",
@@ -1453,9 +1453,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "0",
+      "resultado_real_fora": "2",
+      "estado": "final"
     },
     {
       "data": "2026-07-10",
@@ -1468,9 +1468,9 @@
       "prognostico": "2-2",
       "previsao_casa": "2",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "2",
+      "resultado_real_fora": "1",
+      "estado": "final"
     },
     {
       "data": "2026-07-11",
@@ -1483,9 +1483,9 @@
       "prognostico": "1-2",
       "previsao_casa": "1",
       "previsao_fora": "2",
-      "resultado_real_casa": "",
-      "resultado_real_fora": "",
-      "estado": "previsto"
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "2",
+      "estado": "final"
     },
     {
       "data": "2026-07-12",
@@ -1498,6 +1498,36 @@
       "prognostico": "2-1",
       "previsao_casa": "2",
       "previsao_fora": "1",
+      "resultado_real_casa": "3",
+      "resultado_real_fora": "1",
+      "estado": "final"
+    },
+    {
+      "data": "2026-07-14",
+      "hora": "20:00",
+      "grupo": "SF",
+      "casa": "France",
+      "casa_slug": "france",
+      "fora": "Spain",
+      "fora_slug": "spain",
+      "prognostico": "1-1",
+      "previsao_casa": "1",
+      "previsao_fora": "1",
+      "resultado_real_casa": "",
+      "resultado_real_fora": "",
+      "estado": "previsto"
+    },
+    {
+      "data": "2026-07-15",
+      "hora": "20:00",
+      "grupo": "SF",
+      "casa": "England",
+      "casa_slug": "england",
+      "fora": "Argentina",
+      "fora_slug": "argentina",
+      "prognostico": "2-2",
+      "previsao_casa": "2",
+      "previsao_fora": "2",
       "resultado_real_casa": "",
       "resultado_real_fora": "",
       "estado": "previsto"
