@@ -48,7 +48,11 @@ jobs:
         run: |
           python adicionar_quartos.py
 
-      - name: 5 - Gerar todos os prognosticos em falta
+      - name: 5 - Verificar e adicionar meias-finais
+        run: |
+          python adicionar_meias.py
+
+      - name: 6 - Gerar todos os prognosticos em falta
         run: |
           for i in {1..20}
           do
@@ -66,11 +70,11 @@ jobs:
             fi
           done
 
-      - name: 6 - Exportar JSON
+      - name: 7 - Exportar JSON
         run: |
           python exportar_previsoes_json.py
 
-      - name: 7 - Guardar e publicar alteracoes
+      - name: 8 - Guardar e publicar alteracoes
         run: |
           git config user.name "Footwin Robot"
           git config user.email "actions@github.com"
