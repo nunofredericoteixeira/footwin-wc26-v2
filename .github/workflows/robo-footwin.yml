@@ -29,7 +29,7 @@ jobs:
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          pip install openpyxl requests beautifulsoup4 playwright
+          pip install openpyxl requests beautifulsoup4 playwright python-dateutil
           playwright install chromium --with-deps
 
       - name: 1 - Atualizar jogos e resultados FIFA
