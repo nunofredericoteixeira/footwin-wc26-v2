@@ -1,6 +1,6 @@
 {
-  "atualizado_em": "2026-07-15 02:00:27",
-  "total_jogos": 102,
+  "atualizado_em": "2026-07-19 14:59:30",
+  "total_jogos": 104,
   "jogos": [
     {
       "data": "2026-06-11",
@@ -1510,9 +1510,9 @@
       "casa_slug": "france",
       "fora": "Spain",
       "fora_slug": "spain",
-      "prognostico": "1-1",
-      "previsao_casa": "1",
-      "previsao_fora": "1",
+      "prognostico": "",
+      "previsao_casa": "",
+      "previsao_fora": "",
       "resultado_real_casa": "0",
       "resultado_real_fora": "2",
       "estado": "final"
@@ -1523,6 +1523,36 @@
       "grupo": "SF",
       "casa": "England",
       "casa_slug": "england",
+      "fora": "Argentina",
+      "fora_slug": "argentina",
+      "prognostico": "",
+      "previsao_casa": "",
+      "previsao_fora": "",
+      "resultado_real_casa": "1",
+      "resultado_real_fora": "2",
+      "estado": "final"
+    },
+    {
+      "data": "2026-07-18",
+      "hora": "22:00",
+      "grupo": "3P",
+      "casa": "France",
+      "casa_slug": "france",
+      "fora": "England",
+      "fora_slug": "england",
+      "prognostico": "1-1",
+      "previsao_casa": "1",
+      "previsao_fora": "1",
+      "resultado_real_casa": "4",
+      "resultado_real_fora": "6",
+      "estado": "final"
+    },
+    {
+      "data": "2026-07-19",
+      "hora": "20:00",
+      "grupo": "FINAL",
+      "casa": "Spain",
+      "casa_slug": "spain",
       "fora": "Argentina",
       "fora_slug": "argentina",
       "prognostico": "2-2",
